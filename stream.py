@@ -10,7 +10,7 @@ st.write("""
 st.write("""
 #### head of data
 """)
-df=pd.read_csv('/Users/anastasiapiterskaa/Downloads/rest_data_us.csv')
+df=pd.read_csv('rest_data_us.csv')
 st.table(df.head())
 
 
